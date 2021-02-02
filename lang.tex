@@ -6,26 +6,26 @@
 %\newcommand{\ipa}{\textipa}
 \usepackage{fontspec}
 \setmainfont{Linux Libertine O}
-% \setlength{\parindent}{2em}
+\setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
+%\usepackage{hhline}
 
 \begin{document}
 	\title{Adellian: Language}
 	\maketitle
-	
+
 	\section{Preamble}
-	
-	
-	
+
 	\tableofcontents
-	
+
 	\section{General information}
-	
+
 	\section{Phonology}
-	
+
 	\subsection{Consonants}
-	
+
 	\begin{tabular}{||c | c c c c c c c||}
+		\hline
 		Consonants & Labial & Dental & Alveolar &
 		Retroflex & Palatal & Velar & Glottal \\
 		\hline
@@ -33,25 +33,93 @@
 		Stops \& Affricates & p & t & d & ʈʂ & c & k & \\
 		Fricatives & f & θ & s & ʂ & ç & & h \\
 		Continuants & ʋ & ð & z & ʐ & j & & ɦ \\
-		Liquids & & ɫ & r & ɻ & lʲ & & \\		  
+		Liquids & & ɫ & r & ɻ & lʲ & & \\
+		\hline
 	\end{tabular}
 
-	Adellian has a wide consonant inventory of 26 distinct sounds in total. One of its prominent feature is the way dental and alveolar sounds works there. Dental sounds tend to be more lax in Adellian, while alveolar ones are more tense and have some additional articulation feature in comparison to the dental one. \emph{n} can go either way depending on its surroundings.
-	
-	While having some contrast we would distinguish mainly by voicedness, in Adellian it is an additional feature rather than the main one. For example, with \emph{s/z}, it's more important that \emph{z} is a \emph{continuant} that, in certain cases, might come close to \emph{ɹ}.
-	
-	\emph{r} is single-vibration, and may be realized as a tap (\emph{ɾ}) for many speakers.
-	
+	Adellian has an average consonant inventory of 26 distinct sounds in total. However, it is interesting in regard to having somewhat wide range of continuant and liquid sounds in comparison to the total number of stops. It creates an impression of a "smooth", "flowing" language.
+
+	Sounds pairs like /t-d/, /s-z/, /ʂ-ʐ/, /θ–ð/ can be described as \emph{fortis-lenis} pairs; it would be incorrect to describe them mainly by voicedness. However, sounds like /f/ and /ʋ/ aren't typically grouped into pairs.
+
+	The articulation of /n/ varies.	/r/ is single-vibration, and may be realized as a tap (/ɾ/) for many speakers.
+
+	Gemination only appears allophonically.
+
 	\subsection{Vowels}
-	
-	\begin{tabular}{|| c | c c c c }
+
+	\begin{tabular}{|| c | c c c c || }
+		\hline
 		Vowels & Front unrounded & Front rounded & Central & Back \\
 		\hline
 		High & i & y & ɪ & u \\
-		Mid & e & ø & ə & o \\
+		Mid & e & ø & (ə) & o \\
 		Low & ɛ & & ä & \\
-		Dipthongs & \multicolumn{4}{c}{aɪ ɛɪ oɪ aʊ̯} \\
+		Dipthongs & \multicolumn{4}{c||}{aɪ ɛɪ oɪ aʊ̯} \\
+		\hline
 	\end{tabular}
 
-	Vowel inventory in Adellian is higher than average, and consists of 10 distinct phonemes. However, emph{ə} (shwa) exists as an allophone that appears sometimes in so-called "weak" syllables; it is indicated in writing, but it doesn't play a phonemic difference anywhere.
+	Vowel inventory in Adellian is higher than average as well, and consists of 9-10 distinct phonemes. It can be analyzed as having a tenseness contrast, with /i e ä o u/ being tense, and /ɪ ɛ ə ø y/ being their corresponding lax counterparts. In some dialects, there is an additional length contrast that, however, gets lost in fast speech or singing.
+
+	/ə/ (shwa) is sometimes analyzed as an allophone of /a/, as it only appears in certain words changes, is never stressed, and doesn't show up in phonemic contrasts.
+
+	\subsection{Phonotactics, allophony, and stress}
+
+	Adellian is somewhat restrictive when it comes to sound clusters, in comparison to Slavic languages or even to English.
+
+	Stress in Adellian is non-phonemic and somewhat weak, mostly quantitative. Generally, it falls on the penultimate syllable, provided it's a part of the word root; otherwise, it falls on the last syllable of the root. It does not cause vowel reduction.
+
+	TODO: syllable structure
+
+	\section{Orthography}
+
+	This document is going to mostly use Latin transcription of the words. 
+
+	\begin{tabular}{||c | c c c c c c c||}
+		\hline
+		Consonants & Labial & Dental & Alveolar &
+		Retroflex & Palatal & Velar & Glottal \\
+		\hline
+		Nasal & m & \multicolumn{2}{c}{n} & & ň & q & \\
+		Stops \& Affricates & p & t & d & č & c & k & \\
+		Fricatives & f & ť & s & š & x & & h \\
+		Continuants & v & ď & z & ž & j & & g \\
+		Liquids & & l & ř & r & ľ & & \\
+		\hline
+	\end{tabular}
+
+	\begin{tabular}{|| c | c c c c || }
+		\hline
+	Vowels & Front unrounded & Front rounded & Central & Back \\
+	\hline
+	High & i & ü & y & u \\
+	Mid & e & ö & ` & o \\
+	Low & ä & & a & \\
+	Dipthongs & \multicolumn{4}{c}{ay ey oy au} \\
+	\hline
+	\end{tabular}
+
+	\section{Pronouns}
+
+	\begin{tabular}{|| c c c c c c ||}
+		\hline
+		0 & I & II & I + II & III, animate & III, inanimate\\
+		\hline
+		la & mi & tu & mito & ně & sy\\
+		\hline
+	\end{tabular}
+
+	Basic pronouns present in Adellian are shown in the table above. They are declined by case and number, like ay other noun, but typically do not require any article.
+
+	Demonstratives are distinguished by three degrees of proximity.
+
+	\begin{tabular}{|| c c c ||}
+		\hline
+		Proximal & Medial & Distal \\
+		\hline
+		mes & tes &  nay \\
+		\hline
+	\end{tabular}
+
+	\section{Nouns}
+
 \end{document}
