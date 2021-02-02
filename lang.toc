@@ -4,6 +4,6 @@
 \contentsline {subsection}{\numberline {3.1}Consonants}{2}%
 \contentsline {subsection}{\numberline {3.2}Vowels}{3}%
 \contentsline {subsection}{\numberline {3.3}Phonotactics, allophony, and stress}{3}%
-\contentsline {section}{\numberline {4}Orthography}{3}%
+\contentsline {section}{\numberline {4}Orthography}{4}%
 \contentsline {section}{\numberline {5}Pronouns}{4}%
-\contentsline {section}{\numberline {6}Nouns}{4}%
+\contentsline {section}{\numberline {6}Nouns}{5}%
