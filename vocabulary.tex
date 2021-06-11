@@ -1,0 +1,53 @@
+% !TeX program = xelatex
+
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\setmainfont{Linux Libertine O}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\definecolor{light-gray}{gray}{0.89}
+\definecolor{lighter-gray}{gray}{0.95}
+
+\newcommand{\defword}[4]{
+	\colorbox{light-gray}{
+		\parbox{5in}{
+			\textbf{#1} \\
+				  \emph{#2} \\
+		  }
+	} \\
+	\colorbox{lighter-gray}{
+		\parbox{5in}{
+			#3
+
+			\textbf{\emph{Ex.:}}\\
+			\emph{#4}
+		  }
+	}
+}
+
+
+\newcommand{\defnoun}[4]{
+	\defword {#1}{n., #2}{#3}{#4}
+}
+
+\begin{document}
+	\title{Adellian: Vocabulary}
+	\author{quantumFeline}
+	\maketitle
+
+	\section{Family}
+
+	\defnoun {Mama}
+			 {an.}
+		 	 {Mother; female parent.}
+		 	 {todo}
+
+	\defnoun {Tata}
+			 {an.}
+		 	 {Father; male parent.}
+		 	 {todo}
+
+
+\end{document}
