@@ -1,0 +1,137 @@
+% !TeX program = xelatex
+
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\setmainfont{Linux Libertine O}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\definecolor{light-gray}{gray}{0.89}
+
+%usage: example, gloss, translation.
+\newcommand{\example}[3]{
+	\colorbox{light-gray}{
+		\parbox{5in}{
+			\emph{Ex.: #1}\\
+				  \emph{#2}\\
+				  #3
+		  }
+	}
+}
+
+\begin{document}
+	\title{Krainova: the language}
+	\author{quantumFeline}
+	\maketitle
+
+	\section{Preamble}
+
+	\tableofcontents
+
+	\section{General information}
+	
+	
+
+	\section{Phonology}
+
+	\subsection{Consonants}
+
+	\begin{tabular}{||c | c c c c c c ||}
+		\hline
+		Consonants & Labial & Alveolar &
+		Post-alveolar & Palatal & Velar & Glottal \\
+		\hline
+		Nasals & m & n & & ɲ & & \\
+		Stops (voiced)   & b & d dz & dʒ & ɟ & g & \\
+		Stops (unvoiced) & p & t ts & ʈʃ & c & k & \\
+		Fricatives & f & s sʲ & ʃ & ç & & h \\
+		Continuants & ʋ & z zʲ & ʒ & j & & ɦ \\
+		Liquids & & lʲ & r & rʲ & ɫ & \\
+		\hline
+	\end{tabular}
+
+	\subsection{Vowels}
+
+	\begin{tabular}{|| c | c c c || }
+		\hline
+		Vowels & Front unrounded & Central & Back \\
+		\hline
+		High & i & ɪ & u \\
+		Mid & e &  & o \\
+		Low & ɛ & a & \\
+		Dipthongs & \multicolumn{3}{c||}{aɪ ɛɪ oɪ aʊ̯} \\
+		\hline
+	\end{tabular}
+
+	\subsection{Phonotactics, allophony, and stress}
+
+	Stress is non-phonemic and somewhat weak, mostly quantitative. Generally, it falls on the penultimate syllable, provided it's a part of the word root; otherwise, it falls on the last syllable of the root. It does not cause vowel reduction.
+
+	TODO: syllable structure
+
+	\section{Orthography}
+	
+	\subsection{Cyrillisation} 
+
+	\begin{tabular}{||c | c c c c c c ||}
+		\hline
+		Consonants & Labial & Alveolar &
+		Post-alveolar & Palatal & Velar & Glottal \\
+		\hline
+		Nasals & m & n & & ň & & \\
+		Stops (voiced)   & b & d dz & dž & ď & q & \\
+		Stops (unvoiced) & p & t ts & č & ť & k & \\
+		Fricatives & f & s s' & š & x & & h \\
+		Continuants & v & z z' & ž & j & & g \\
+		Liquids & & ľ & r & ř & l & \\
+		\hline
+	\end{tabular}
+
+	\begin{tabular}{|| c | c c c || }
+		\hline
+		Vowels & Front unrounded & Central & Back \\
+		\hline
+		High & i & y & u \\
+		Mid & e &  & o \\
+		Low & ä & a & \\
+		Dipthongs & \multicolumn{3}{c||}{ai ei oi aw} \\
+		\hline
+	\end{tabular}
+
+	\section{Pronouns}
+
+	\begin{tabular}{|| c | c | c | c | c | c ||}
+		\hline
+		0 & I & II & I + II & III, animate & III, inanimate\\
+		\hline
+		la & mi & tu & mito & ne & sy\\
+		\hline
+	\end{tabular}
+
+	Basic pronouns present in Adellian are shown in the table above. They are declined by case and number, like any other noun, but typically do not require any article.
+	
+	Zero pronoun is used when the subject is abstract, somewhat like ``one" or ``generic you" in English. Additionally, it case serve as a placeholder pronoun when a word root is needed grammatically, but isn't present, meaning-wise.
+
+	Demonstratives are distinguished by three degrees of proximity.
+
+	\begin{tabular}{|| c | c | c ||}
+		\hline
+		Proximal & Medial & Distal \\
+		\hline
+		mes & täs &  nay \\
+		\hline
+	\end{tabular}
+
+	\section{Nouns}
+	
+	Adellian nouns decline in the following way:
+	
+	\emph{root + article + number + case [+ locative postfix]}
+	
+	\example {kassaqdes}
+			 {kassa + NEG + DET + ACC}
+		 	 {whom? - the majority of cats}
+	
+
+\end{document}

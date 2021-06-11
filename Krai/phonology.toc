@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Preamble}{1}
+\contentsline {section}{\numberline {2}General information}{2}
+\contentsline {section}{\numberline {3}Phonology}{2}
+\contentsline {subsection}{\numberline {3.1}Consonants}{2}
+\contentsline {subsection}{\numberline {3.2}Vowels}{2}
+\contentsline {subsection}{\numberline {3.3}Phonotactics, allophony, and stress}{2}
+\contentsline {section}{\numberline {4}Orthography}{3}
+\contentsline {subsection}{\numberline {4.1}Cyrillisation}{3}
+\contentsline {section}{\numberline {5}Pronouns}{3}
+\contentsline {section}{\numberline {6}Nouns}{4}
