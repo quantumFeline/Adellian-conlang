@@ -1,0 +1,90 @@
+% !TeX program = xelatex
+
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\setmainfont{Linux Libertine O}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\definecolor{light-gray}{gray}{0.89}
+\definecolor{lighter-gray}{gray}{0.95}
+
+\newcommand{\defword}[4]{
+	\colorbox{light-gray}{
+		\parbox{5in}{
+			\textbf{#1} \\
+				  \emph{#2} \\
+		  }
+	} \nopagebreak \\ \nopagebreak
+	\colorbox{lighter-gray}{
+		\parbox{5in}{
+			#3\newline\newline
+			\textbf{\emph{Ex.:}}\\
+			\emph{#4}
+		  }
+	}
+}
+
+
+\newcommand{\defnoun}[4]{
+	\defword {#1}{n., #2}{#3}{#4}
+}
+
+\newcommand{\defverb}[4]{
+	\defword {#1}{v., #2}{#3}{#4}
+}
+
+\begin{document}
+	\title{Krainova: Vocabulary}
+	\author{quantumFeline}
+	\maketitle
+
+	\section{Family}
+
+	\defnoun {Mama}{an.}
+		 	 {Mother/nanny, parent, caretaker. It is expected that the child calls this way some of their family members but not the other ones. "Mama" defines social relationship rather than blood; it could be mother, father, granny, nanny, or even older sibling, depending on how the family looks like. The biological mother is, however, the most typical example.}
+		 	 {todo}
+
+\pagebreak
+
+	\defnoun {Tato}{an.}
+		 	 {The one who teacher behaviour and good manners. Close to the Ukrainian "вихователь/ниця". \emph{Mama} can be technically seen as a subcategory of \emph{tato}, but is usually not viewed in this way. In a nuclear family, typically the main parent would be called \emph{mama}, and the other one \emph{tato}; this is viewed as a balanced way to raise a child. However, variations always exist.}
+		 	 {todo}
+	
+	\defnoun {Fafa}{an.}
+			 {Sibling; brother, sister. The kids you grew up with in the same household, and shared the caretaker/s (\emph{mamaj}). Can be metaphorically used in regard to very close friends as well.}
+			 {}
+	
+	\defnoun {Tona}{an.}
+			 {A person you (or someone else) take care of as \emph{mama}. The closest analogue in English is "son/daughter".}
+			 {}
+	
+	\defnoun {Tiki}{an.}
+			 {A person you (or someone else) take care of as \emph{tata}. Also analogous to "son/daughter", but from a different point of view.}
+			 {}
+			 
+	\emph{Note: it is considered highly unusual for the same person to be a mama for some kids, but a tata for other ones. However, sometimes such cases do exist.}
+	
+	\section{People}
+	
+	\defnoun{Ära}{an.}
+			{Human; a person; a sapient creature.}
+			{}
+	
+	\defnoun{Makoto}{an.}
+			{The biological parent of a child. You can also use \emph{s'itära} (lit. "seeder") instead, but that's incredibly rude to use about a human.}
+			{}
+	
+	\defnoun{Dytyna}{an.}
+			{A human child.}
+			{}
+			
+	\section{Actions}
+	
+	\defverb{S'ity}{tr.}
+			{To seed, to produce, to spawn something; to be the source of life or something that is growing. An example can be a tree spreading it seeds, or an animal being the biological parent of a child.}
+			{}
+
+
+\end{document}

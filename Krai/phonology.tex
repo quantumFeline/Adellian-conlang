@@ -3,6 +3,7 @@
 \documentclass[12pt]{article}
 \usepackage{fontspec}
 \usepackage{xcolor}
+\usepackage{verbatim}
 \setmainfont{Linux Libertine O}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
@@ -37,19 +38,41 @@
 
 	\subsection{Consonants}
 
-	\begin{tabular}{||c | c c c c c c ||}
+	\begin{tabular}{||c | c c c c c c c ||}
 		\hline
-		Consonants & Labial & Alveolar &
-		Post-alveolar & Palatal & Velar & Glottal \\
+		Consonants & Labial & Alv. & Alv.-Pal. &
+		Post-alv. & Palatal & Velar & Glottal \\
 		\hline
-		Nasals & m & n & & ɲ & & \\
-		Stops (voiced)   & b & d dz & dʒ & ɟ & g & \\
-		Stops (unvoiced) & p & t ts & ʈʃ & c & k & \\
-		Fricatives & f & s sʲ & ʃ & ç & & h \\
-		Continuants & ʋ & z zʲ & ʒ & j & & ɦ \\
-		Liquids & & lʲ & r & rʲ & ɫ & \\
+		Nasals & m & n & & & ɲ & & \\
+		Affricates (v) & & dz &  dzʲ & dʒ & & & \\
+		Affricates (u) & & ts & tsʲ & ʈʃ & & & \\
+		Stops (v) & b & d & & & ɟ & g & \\
+		Stops (u) & p & t & & & c & k & \\
+		Fricatives & f & s & sʲ & ʃ & ɕ & & h \\
+		Continuants & ʋ & z & zʲ & ʒ & j & & ɦ \\
+		Liquids & & r & rʲ & & lʲ & ɫ & \\
 		\hline
 	\end{tabular}
+	
+	\begin{comment}
+	\textasciitilde w
+	\begin{tabular}{|| c | c | c | c | c | c | c | c ||}
+	\hline
+		& Labial & \multicolumn{2}{c|}{ Dental/ Alveolar} &
+		Post-alv. & Palatal & Velar & Glottal \\
+		& & Hard & Soft & & & & \\
+	\hline
+	
+	Nasal & m & n & nʲ & & & & \\
+	Affricates & & dz ts & dzʲ tsʲ & dʒ  ʈʃ & & & \\
+	Stops & p b & d t & dʲ tʲ & & & g k & \\
+	Fricatives & & z s & zʲ sʲ & ʒ  ʃ & ç & & h ɦ \\
+	Approximants & ʋ & ɫ & lʲ & & j & & \\
+	Trill & & r & rʲ & & & &\\
+	\hline
+	
+	\end{tabular}
+	\end{comment}
 
 	\subsection{Vowels}
 
@@ -72,19 +95,21 @@
 
 	\section{Orthography}
 	
-	\subsection{Cyrillisation} 
+	\subsection{Romanisation} 
 
-	\begin{tabular}{||c | c c c c c c ||}
+	\begin{tabular}{||c | c c c c c c c ||}
 		\hline
-		Consonants & Labial & Alveolar &
-		Post-alveolar & Palatal & Velar & Glottal \\
+		Consonants & Labial & Alv. & Alv.-Pal. &
+		Post-alv. & Palatal & Velar & Glottal \\
 		\hline
-		Nasals & m & n & & ň & & \\
-		Stops (voiced)   & b & d dz & dž & ď & q & \\
-		Stops (unvoiced) & p & t ts & č & ť & k & \\
-		Fricatives & f & s s' & š & x & & h \\
-		Continuants & v & z z' & ž & j & & g \\
-		Liquids & & ľ & r & ř & l & \\
+		Nasals & m & n & & & ň & & \\
+		Affricates (v) & & dz &  dz' & dž & & & \\
+		Affricates (u) & & ts & ts' & č & & & \\
+		Stops (v) & b & d & & & ď & q & \\
+		Stops (u) & p & t & & & ť & k & \\
+		Fricatives & f & s & s' & š & x & & h \\
+		Continuants & v & z & z' & ž & j & & g \\
+		Liquids & & r & ř & & ľ & l & \\
 		\hline
 	\end{tabular}
 
