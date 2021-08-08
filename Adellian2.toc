@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Phonology}{1}
+\contentsline {section}{\numberline {2}Nouns}{2}
+\contentsline {subsection}{\numberline {2.1}Pronouns}{2}
+\contentsline {subsection}{\numberline {2.2}Articles}{3}
+\contentsline {subsection}{\numberline {2.3}Numbers}{3}
